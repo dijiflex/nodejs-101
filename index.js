@@ -9,5 +9,6 @@ app.get("/users", function (req, res) {
   res.send({ name: "AYush", Age: "21", Gender: "Male" });
 });
 
+
 app.listen(3000);
 console.log("Server is running at port 3000");
